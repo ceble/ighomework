@@ -1,0 +1,19 @@
+Given a file that has contents:
+
+Key,Value
+
+A,1
+
+A,33
+
+B,1
+
+FFF,2
+
+B,5
+
+C5,4
+
+Transform it into a collection that will for each key have a list of it's values:
+
+A={1,33}, B={1,5}, C5={4}, FFF={2}
